@@ -1,0 +1,71 @@
+:root {
+    --primary: #8c38ff;
+    --light: #EEEEEE;
+    --dark:#212121;
+    --zfp: rgba(255, 107, 21, 0.863);
+}
+*{
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                            supported by Chrome, Edge, Opera and Firefox */
+    margin:0;
+    padding: 0;
+    cursor:default;
+    
+  }
+
+body{
+    overflow-x:hidden;
+    
+}
+#wrapper{
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+    position:absolute;
+    background-color: var(--zfp);
+  }
+
+  .content{
+      background-color: white;
+      position:absolute;
+      height:auto;
+      width:100%;
+      color:white;
+      min-height:100%;
+      
+  }
+.footer{
+    width:100%;
+    height:80px;
+    background-color: blue;
+    position: absolute;
+    bottom:0px;
+}
+
+.text{
+    width:auto;
+    padding-top:130px;
+    margin: 0px 20px 0px 20px;
+    color:black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size:16px;
+    text-align: left;
+    padding-bottom:30px;
+}
+.text h1{
+    position:relative;
+    font-size:2rem;
+    border-bottom-style:solid;
+    padding-bottom:20px;
+    border-color:var(--zfp);
+    border-width: 2px;
+    text-transform: uppercase;
+}
