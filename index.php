@@ -51,6 +51,20 @@
                     </div>
                 </nav>
             </header>
+            <div class="leftNav">
+                <div class="leftMenu">
+                    <ul>
+                        <li class="is-active"><a href="index.php">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
             <div class="content">
                 <div class="text">
                     <center>
