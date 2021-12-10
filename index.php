@@ -9,6 +9,7 @@
         <meta name="theme-color" content="#e69100" />
         <link rel="stylesheet" type="text/css"href="css/navStyle.css">
         <link rel="stylesheet" type="text/css"href="css/contentStyle.css">
+
         
 
 
@@ -34,13 +35,21 @@
                 <nav class="navi">
                     <div class="container">
                         <img src="" class="logo">  
-
+                        
+                        
+                    
+                        
                         <div class="menu">
-                            <a href="index.php" class="is-active">Home</a>
+                        
+                            <a href="./" class="is-active">Home</a>
                             <a href="#">About</a>
                             <a href="#">Projects</a>
                             <a href="#">Contacts</a>
                         </div>
+                        <div id ="user-logo">
+                            <a href=""><img src="img/user.png"></a>
+                        </div>
+                        
                         <button class="hamburger">
                             <span></span>
                             <span></span>
@@ -51,13 +60,14 @@
                     </div>
                 </nav>
             </header>
+            
             <div class="leftNav">
                 <div class="leftMenu">
                     <ul>
-                        <li class="is-active"><a href="index.php">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Contacts</a></li>
+                        <li class="is-active"><a href="./">Home</a></li><br><br>
+                        <li><a href="#">About</a></li><br><br>
+                        <li><a href="#">Projects</a></li><br><br>
+                        <li><a href="#">Contacts</a></li><br><br>
                     </ul>
                     
                     

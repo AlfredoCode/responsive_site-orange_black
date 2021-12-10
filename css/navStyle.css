@@ -23,6 +23,7 @@
 }
 .logo{
     cursor:pointer;
+    display:none;
 }
 .navi{
     position:fixed;
@@ -33,6 +34,7 @@
     background-color: var(--dark);
     padding: 16px 32px;
     border-bottom: 3px solid var(--zfp);
+    height:40px;
 }
 .h2{
     color:#FFF;
@@ -60,7 +62,7 @@
     display: block;
     width:33px;
     height:4px;
-    margin-bottom: 5px;
+    margin:5px 0px;
     position:relative;
 
     background-color:var(--light);
@@ -124,17 +126,19 @@
     flex: 1 1 0%;
     display: flex;
     justify-content: space-between;
-    margin:16px 10px;
+    margin:32px 10px;
     visibility:hidden;
     opacity:0;
     transition: 0.4s ease 0s;
 }
 .leftMenu ul li{
     display:block;
-    padding:30px 0px;
-    font-size: 20px;
+    padding:20px 0px;
+    font-size: 14px;
     text-align: center;
     border-radius: 30px;
+    box-shadow: 4px 0 2px -2px var(--zfp),
+                -4px 0 2px -2px var(--zfp);
     
 }
 .leftMenu a{
@@ -169,16 +173,51 @@
     opacity:0;
     transition: 0.4s ease 0s;
     width:0;
-    top:60px;
+    margin-top:75px;
+    
     
 }
 .leftNav.is-active{
     visibility:visible;
     opacity: 1;
-    width:80vw;
+    width:75vw;
 }
 
+#user-logo{
+    display:block;
+    position:relative;
+    z-index: 1;
+
+    user-select:none;
+
+    appearance:none;
+    border:none;
+    outline:none;
+    background:none;
+    cursor:pointer;
+
+
+}
+#user-logo img, #user-logo a{
+    width:40px;
+    height:40px;
+    float:left;
+    position: relative;
+    
+    
+    cursor:pointer;
+}
+
+
+
+
+
+
+
 @media (min-width: 768px){
+    .logo{
+        display:block;
+    }
     .hamburger{
         display:none;
     }
@@ -187,5 +226,8 @@
     }
     .menu{
         display:flex;
+    }
+    #user-logo{
+        left:2vw;
     }
 }
