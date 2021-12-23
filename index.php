@@ -14,12 +14,12 @@
 
 
 
-        <!--<script type="text/javascript">
+        <script type="text/javascript">
             $(window).load(function() {
               $("body").removeClass("preload");
             });
           
-        </script>-->
+        </script>
 
         
 
@@ -32,6 +32,7 @@
 
         <div id="wrapper">            
             <header class="h2">
+                
                 <nav class="navi">
                     <div class="container">
                         <img src="" class="logo">  
@@ -82,7 +83,7 @@
                     </center>
                     <br>
                     <br>
-
+                    
 
 
                     <form action="scriptFiles/add_site.php" method="POST">
@@ -105,6 +106,10 @@
            
         </div>
        
+    <?php
+        
+        
+    ?>
     
     </body>
 </html>
